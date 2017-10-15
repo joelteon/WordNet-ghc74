@@ -9,7 +9,6 @@ License:            BSD3
 License-file:       LICENSE
 Author:             Hal Daume III
 Maintainer:         Max Rabkin <max.rabkin@gmail.com>
-Build-Depends:      base, filepath
 Build-Type:         Simple
 Cabal-Version:      >= 1.8
 Tested-With:        GHC == 7.4.2, GHC == 7.6.3, GHC == 7.7.20130824
