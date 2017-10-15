@@ -61,7 +61,7 @@ module NLP.WordNet
     )
     where
 
-import Prelude
+import Prelude hiding (Word)
 import Data.Tree
 import qualified Data.Set as Set
 import System.IO.Unsafe
