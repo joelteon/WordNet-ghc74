@@ -79,7 +79,7 @@ cannonWNString s'
         nub [s, 
              replaceChar '_' '-' s,
              replaceChar '-' '_' s,
-             filter (not . (`elem` "_-")) s,
+             filter (not . (`elem` ("_-"::String))) s,
              filter (/='.') s
             ]
   where s = map toLower s'
